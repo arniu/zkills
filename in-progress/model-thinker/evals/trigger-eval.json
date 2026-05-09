@@ -1,0 +1,49 @@
+[
+  {
+    "query": "最近团队里总是有人搭便车，活都是几个人干，其他人躲着走。能用《模型思维》里的模型帮我分析一下这个情况吗？",
+    "should_trigger": true
+  },
+  {
+    "query": "我想用路径依赖模型分析一下为什么用户不願意从 Notion 迁移到新产品",
+    "should_trigger": true
+  },
+  {
+    "query": "我们公司推新工具，到 40% 使用率就突然爆发了，这是不是阈值模型说的临界点？",
+    "should_trigger": true
+  },
+  {
+    "query": "scott page 的多模型思维里有没有适合分析市场竞争的模型？我打算做个 AI 笔记产品",
+    "should_trigger": true
+  },
+  { "query": "用博弈论帮我看看这个定价策略问题，两个大平台在打价格战", "should_trigger": true },
+  {
+    "query": "幂律分布是不是可以解释为什么我们部门 20% 的人干了 80% 的活？用模型思维分析一下",
+    "should_trigger": true
+  },
+  {
+    "query": "我想了解一下网络模型怎么用来分析公司内部的知识流动瓶颈，模型思维那本书里怎么说的",
+    "should_trigger": true
+  },
+  {
+    "query": "用崎岖景观模型分析一下为什么我们的产品优化总是改一个地方又坏了另一个地方",
+    "should_trigger": true
+  },
+  {
+    "query": "集体行动模型能解释为什么开源项目最后往往只有几个人在维护吗？",
+    "should_trigger": true
+  },
+  {
+    "query": "我老板让我用系统动力学分析一下我们的供应链库存波动问题，模型思维书里有没有相关模型",
+    "should_trigger": true
+  },
+  { "query": "帮我做一个小红书文案，要突出产品的三大卖点，语气活泼一点", "should_trigger": false },
+  { "query": "我想用 SWOt 分析一下我们的竞品，帮列个框架", "should_trigger": false },
+  { "query": "用思维导图的方式帮我梳理一下这个项目的关键节点", "should_trigger": false },
+  { "query": "你的思维模型是什么？你怎么做决策的？", "should_trigger": false },
+  { "query": "能不能用第一性原理帮我分析这个商业问题", "should_trigger": false },
+  { "query": "查理·芒格的思维模型有哪些？帮我列一下", "should_trigger": false },
+  { "query": "帮我把这段录音转成文字，然后做个摘要", "should_trigger": false },
+  { "query": "我想学模型思维，有什么书推荐吗？", "should_trigger": false },
+  { "query": "帮我用数学建模分析一下这个销售数据", "should_trigger": false },
+  { "query": "用金字塔原理帮我组织一下这个汇报的结构", "should_trigger": false }
+]
