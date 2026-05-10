@@ -39,6 +39,32 @@
         "Provides strategies to accelerate cross-department adoption",
         "Mentions model limitations"
       ]
+    },
+    {
+      "id": 4,
+      "prompt": "I'm the product manager for a B2B SaaS team. There are 8 engineers but only 2 of them consistently ship quality code on time. The rest either procrastinate or produce buggy work that needs rework. Our velocity metrics show that the top 2 engineers account for about 75% of the value delivered. What's going on here, and how should I think about this problem structurally?",
+      "expected_output": "Model analysis in English, recommending power-law distribution or collective action model, with actionable management suggestions",
+      "files": [],
+      "expectations": [
+        "Output is entirely in English",
+        "Recommends at least one relevant model from the book",
+        "Explains the model's core concept in plain language",
+        "Applies the model framework step by step",
+        "Provides actionable suggestions based on the analysis"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "I'm considering building a new AI-powered note-taking app. The market already has Notion, Obsidian, Roam Research, and Logseq — all with strong communities and network effects. My concern is that even if my product is objectively better, users won't switch because they've already invested so much content and habit into existing tools.",
+      "expected_output": "Model analysis in English, recommending path dependence model, analyzing switching costs and lock-in effects",
+      "files": [],
+      "expectations": [
+        "Output is entirely in English",
+        "Recommends path dependence as the primary model",
+        "Analyzes switching costs and lock-in effects",
+        "Discusses potential strategies to overcome path dependence",
+        "Mentions model limitations"
+      ]
     }
   ]
 }
