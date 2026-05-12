@@ -16,16 +16,10 @@ claude add skill <path>
 
 Where `<path>` is the local path to the skill directory.
 
-**Public skills** (shared with the community):
+Clone the repo and use `claude add skill` with the skill path:
 
 ```bash
 claude add skill skills/model-thinker
-```
-
-**Personal skills** (your private utilities):
-
-```bash
-claude add skill personal/caveman
 ```
 
 ### Verify installation
@@ -38,12 +32,5 @@ claude list skills
 
 ## Available Skills
 
-### Public (`skills/`)
-
 - [model-thinker](skills/model-thinker/) — Multi-model analysis via Scott Page's The Model Thinker
   - Install: `claude add skill skills/model-thinker`
-
-### Personal (`personal/`)
-
-- [caveman](personal/caveman/) — Ultra-compressed communication mode
-  - Install: `claude add skill personal/caveman`
