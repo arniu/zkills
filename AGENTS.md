@@ -3,7 +3,7 @@
 ## Project structure
 
 ```
-skills/          public
+skills/          public — promoted, listed in README
 in-progress/     private — drafts
 deprecated/      private — dead
 docs/            reference docs
@@ -11,6 +11,8 @@ docs/            reference docs
 ```
 
 Skills graduate from `in-progress/` to `skills/` when ready.
+
+Every skill in `skills/` (the **promoted** bucket) must have a linked entry in `README.md`; `in-progress/` and `deprecated/` skills must not appear there. Adding, renaming, removing, or moving a skill updates `README.md` and the bucket `README.md`s in the same change.
 
 ## Skill format
 
@@ -25,11 +27,10 @@ See `docs/skills-guide.md` for full conventions, including evals.
 ## Commands
 
 ```bash
-# Install a skill from this repo
-npx skills add arniu/skills --skill <name> -y
-
 # Test a skill (via /skill-creator eval framework)
 ```
+
+`README.md` is the single source of install wording — don't restate install commands in skills, docs, or this file.
 
 ## Development workflow
 
