@@ -17,13 +17,7 @@ Skills graduate from `in-progress/` to `skills/` when their evals pass.
 
 ## Skill format
 
-Each skill is a directory with a `SKILL.md` containing:
-
-- **YAML frontmatter**: `name`, `description` (the only trigger mechanism)
-- **Body**: under 500 lines
-- Optional: `evals/`, `references/`, `scripts/`, `assets/`
-
-See `docs/skills-guide.md` for the full conventions — authoring, evals, tuning.
+A skill is a directory with a `SKILL.md`: `name` + `description` frontmatter (the only trigger mechanism), body under 500 lines. See `docs/skills-guide.md` for the full conventions — authoring, evals, tuning.
 
 ## Testing
 
