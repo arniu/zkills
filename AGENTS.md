@@ -26,7 +26,7 @@ See `docs/skills-guide.md` for full conventions.
 
 ```bash
 # Install a skill from this repo
-npx skills add arniu/zkills --skill <name> -y
+npx skills add arniu/skills --skill <name> -y
 
 # Test a skill (via /skill-creator eval framework)
 # See docs/skills-guide.md for creating and running evals
