@@ -5,7 +5,7 @@
 ```
 skills/          public — promoted
 in-progress/     private — drafts
-research/        private — external skills for study
+research/        private — study material
 docs/            reference docs
   skills-guide.md      authoring conventions (incl. evals)
   skills-philosophy.md writing methodology
@@ -15,7 +15,7 @@ Skills graduate from `in-progress/` to `skills/` when their evals pass.
 
 `README.md` lists exactly the `skills/` set — every promoted skill linked, nothing from `in-progress/` or `research/`. Adding, renaming, removing, moving, or changing a skill's description updates `README.md` in the same change. Install commands live only in `README.md`.
 
-Each skill under `research/` is study material from another repo — read and learn from it, keep its origin (source repo and license) in a `SOURCE.md` beside its `SKILL.md`.
+Each `research/` skill comes from another repo — keep its origin (repo + license) in a `SOURCE.md` beside it.
 
 ## Skill format
 
@@ -30,5 +30,5 @@ See `docs/skills-guide.md` for the full conventions — authoring, evals, tuning
 ## Development workflow
 
 - Test a skill via the `/skill-creator` eval framework — an installed skill, not part of this repo (workflow in `docs/skills-guide.md`)
-- Test outputs go to `.claude/workspaces/`
+- Test workspace root is `.claude/workspaces/<skill-name>/` — not skill-creator's sibling `<skill-name>-workspace/`; keep its `iteration-N/` layout inside
 - Use `isolation: "worktree"` for subagent testing to keep the working tree clean
