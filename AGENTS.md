@@ -5,14 +5,16 @@
 ```
 skills/          public — promoted, listed in README
 in-progress/     private — drafts
-deprecated/      private — dead
+research/        private — external skills for study, not house style
 docs/            reference docs
   skills-guide.md  comprehensive skill authoring guide
 ```
 
 Skills graduate from `in-progress/` to `skills/` when ready.
 
-Every skill in `skills/` (the **promoted** bucket) must have a linked entry in `README.md`; `in-progress/` and `deprecated/` skills must not appear there. Adding, renaming, removing, or moving a skill updates `README.md` in the same change.
+Every skill in `skills/` (the **promoted** bucket) must have a linked entry in `README.md`; `in-progress/` and `research/` skills must not appear there. Adding, renaming, removing, or moving a skill updates `README.md` in the same change.
+
+Each skill under `research/` keeps its origin — source repo and license — in a `SOURCE.md` beside its `SKILL.md`; these are study material from other repos, never to be installed or imitated as house style.
 
 ## Skill format
 
