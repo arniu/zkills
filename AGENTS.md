@@ -24,3 +24,9 @@ A skill is a directory with a `SKILL.md`: `name` + `description` frontmatter (th
 - Run the `/skill-creator` eval framework — an installed skill, not part of this repo
 - Test workspace root is `.agents/workspaces/<skill-name>/` — overrides skill-creator's sibling `<skill-name>-workspace/`; keep its `iteration-N/` layout inside
 - Use `isolation: "worktree"` for subagent testing to keep the working tree clean
+
+## Git
+
+- Conventional commits: `type(scope): lowercase summary` — `feat`, `fix`, `docs`, `chore`, `refactor`, `test`
+- One logical change per commit; push after each commit
+- Point `core.hooksPath` at `.githooks` — the pre-commit hook formats staged files with prettier (fetched via `npx`)
