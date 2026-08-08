@@ -12,7 +12,7 @@ docs/            reference docs
 
 Skills graduate from `in-progress/` to `skills/` when ready.
 
-Every skill in `skills/` (the **promoted** bucket) must have a linked entry in `README.md`; `in-progress/` and `deprecated/` skills must not appear there. Adding, renaming, removing, or moving a skill updates `README.md` and `skills/README.md` in the same change.
+Every skill in `skills/` (the **promoted** bucket) must have a linked entry in `README.md`; `in-progress/` and `deprecated/` skills must not appear there. Adding, renaming, removing, or moving a skill updates `README.md` in the same change.
 
 ## Skill format
 
