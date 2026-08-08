@@ -15,8 +15,6 @@ Skills graduate from `in-progress/` to `skills/` when their evals pass.
 
 `README.md` lists exactly the `skills/` set — every promoted skill linked, nothing from `in-progress/` or `research/`. Adding, renaming, removing, moving, or changing a skill's description updates `README.md` in the same change. Install commands live only in `README.md`.
 
-Each `research/` skill comes from another repo — keep its origin (repo + license) in a `SOURCE.md` beside it.
-
 ## Skill format
 
 Each skill is a directory with a `SKILL.md` containing:
