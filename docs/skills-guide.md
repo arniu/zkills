@@ -1,6 +1,6 @@
 # Skills Guide
 
-How to write, test, and tune skills for this repo. Writing methodology: [skills-philosophy.md](skills-philosophy.md).
+How to write, test, and tune skills for this repo.
 
 ---
 
