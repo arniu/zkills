@@ -3,14 +3,14 @@
 ## Project structure
 
 ```
-skills/          public — linked in README
+skills/          public
 in-progress/     private — drafts
 deprecated/      private — dead
 docs/            reference docs
   skills-guide.md  comprehensive skill authoring guide
 ```
 
-Skills are in `in-progress/` while drafting, then moved to `skills/` when ready.
+Skills graduate from `in-progress/` to `skills/` when ready.
 
 ## Skill format
 
@@ -20,7 +20,7 @@ Each skill is a directory with a `SKILL.md` containing:
 - **Body**: instructions under 500 lines
 - Optional: `evals/`, `references/`, `scripts/`, `assets/`
 
-See `docs/skills-guide.md` for full conventions.
+See `docs/skills-guide.md` for full conventions, including evals.
 
 ## Commands
 
@@ -29,7 +29,6 @@ See `docs/skills-guide.md` for full conventions.
 npx skills add arniu/skills --skill <name> -y
 
 # Test a skill (via /skill-creator eval framework)
-# See docs/skills-guide.md for creating and running evals
 ```
 
 ## Development workflow
