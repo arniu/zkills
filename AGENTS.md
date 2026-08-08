@@ -28,5 +28,5 @@ See `docs/skills-guide.md` for the full conventions — authoring, evals, tuning
 ## Development workflow
 
 - Test a skill via the `/skill-creator` eval framework — an installed skill, not part of this repo (workflow in `docs/skills-guide.md`)
-- Test workspace root is `.claude/workspaces/<skill-name>/` — not skill-creator's sibling `<skill-name>-workspace/`; keep its `iteration-N/` layout inside
+- Test workspace root is `.agents/workspaces/<skill-name>/` — not skill-creator's sibling `<skill-name>-workspace/`; keep its `iteration-N/` layout inside
 - Use `isolation: "worktree"` for subagent testing to keep the working tree clean
